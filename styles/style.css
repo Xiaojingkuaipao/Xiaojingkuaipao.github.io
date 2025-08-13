@@ -1,0 +1,48 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+li,
+p {
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #ebe9ed;
+}
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  background-color: #fef7ff;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px, 0;
+  text-shadow: 2px 2px 2px black;
+  color: #9e7bf6;
+}
+
+.profile-image {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.intro-text {
+  text-indent: 2em;
+}
+
+.research-block {
+  padding-left: 20px;
+}
