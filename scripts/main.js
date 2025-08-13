@@ -20,10 +20,10 @@ function setUserName() {
 
 function refreshHeading() {
   let storedName = localStorage.getItem("name");
-  if (storedName) {
-    myHeading.textContent = `Zhijing Xin's Site, ${storedName}`;
-  } else {
+  if (!storedName || storedName === "null") {
     myHeading.textContent = "Zhijing Xin's Website";
+  } else {
+    myHeading.textContent = `Zhijing Xin's Site, ${storedName}`;
   }
 }
 
@@ -31,3 +31,6 @@ myButton.onclick = function () {
   setUserName();
   refreshHeading();
 };
+
+if (!myName) {
+}
