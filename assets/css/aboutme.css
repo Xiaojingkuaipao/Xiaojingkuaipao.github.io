@@ -1,0 +1,85 @@
+.aboutme-profile-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1.5rem;
+  padding: 1.25rem;
+  margin: 1.5rem 0 2rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  background: #fafafa;
+}
+
+.page-heading h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.aboutme-photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.aboutme-photo {
+  width: 200px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
+}
+
+.aboutme-profile-meta h2 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.aboutme-role {
+  font-weight: 600;
+  color: #1d4f7a;
+  margin-bottom: 0.9rem;
+}
+
+.aboutme-contacts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, max-content));
+  gap: 0.45rem 1rem;
+  margin: 0.8rem 0 1rem;
+}
+
+.aboutme-contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #2f2f2f;
+  text-decoration: none;
+}
+
+.aboutme-contact-item:hover {
+  color: #005f99;
+  text-decoration: none;
+}
+
+.aboutme-contact-item img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .page-heading h1 {
+    font-size: 2.3rem;
+  }
+
+  .aboutme-profile-card {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutme-photo {
+    width: 180px;
+    height: 220px;
+  }
+
+  .aboutme-contacts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
