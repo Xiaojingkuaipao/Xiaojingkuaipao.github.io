@@ -8,7 +8,7 @@ css:
 
 <div class="aboutme-profile-card">
   <div class="aboutme-photo-wrap">
-    <img src="/assets/img/me.jpg" alt="Zhijing Xin portrait" class="aboutme-photo">
+    <img src="/assets/img/me.jpeg" alt="Zhijing Xin portrait" class="aboutme-photo">
   </div>
   <div class="aboutme-profile-meta">
     <h2>Zhijing Xin</h2>
